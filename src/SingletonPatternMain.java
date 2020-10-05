@@ -2,10 +2,10 @@
 public class SingletonPatternMain {
 
 	public static void main(String[] args) {
-		Singleton object = Singleton.getInstance();
-		object.showMessage();		
+		Singleton object1 = Singleton.getInstance();
 		Singleton object2 = Singleton.getInstance();
-		object2.showMessage();
+		System.out.println(object1);
+		System.out.println(object2);
 	}
 
 }
